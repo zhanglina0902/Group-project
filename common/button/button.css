@@ -20,6 +20,11 @@
     color: red；
 
 }
+.is-disabled{
+    cursor: not-allowed;
+    opacity: .5;
+    
+}
 
 
 .btn-default{
@@ -42,4 +47,9 @@
     border-color: #f0ad4e;
     background-color: #f0ad4e;
     color:#fff;
+}
+.btn-danger{
+    border-color: #f56c6c;
+    background-color: #f56c6c;
+    color: #fff;
 }
