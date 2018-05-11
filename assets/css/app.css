@@ -1,9 +1,10 @@
 /* Write your styles */
-
 html,
 body {
     background: #e9ecf3;
     overflow: inherit;
+    height: 100%;
+    overflow: hidden;
 }
 
 ul,
