@@ -1,22 +1,4 @@
-html,
-body {
-    background: #e9ecf3;
-    overflow: inherit;
-    height: 100%;
-    overflow: hidden;
-}
-ul,
-li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-input {
-    border: none;
-}
-a {
-    color: #337ab7;
-}
+
 
 .login {
     background: #334054;

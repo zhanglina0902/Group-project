@@ -1,7 +1,6 @@
-
-/*
- fixed-layout 固定头部和边栏布局
-*/
+/**
+ * admin.css
+ */
 
 html,
 body {
@@ -17,72 +16,42 @@ ul {
   color: #ffbe40;
 }
 
-.admin-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1500;
-  font-size: 1.4rem;
-  margin-bottom: 0;
+.am-breadcrumb {
+  padding: 0;
+  margin-top: 10px;
 }
-
-.admin-header-list a:hover :after {
-  content: none;
-}
-
 .admin-main {
   position: relative;
   height: 100%;
   padding-top: 51px;
   background: #f3f3f3;
 }
-
 .admin-menu {
   position: fixed;
   z-index: 10;
   bottom: 30px;
   right: 20px;
 }
-
-.admin-sidebar {
-  width: 260px;
-  min-height: 100%;
-  float: left;
-  border-right: 1px solid #cecece;
+.tpl-page-container {
+  margin: 0;
+  padding: 20px 20px 0;
 }
 
-.admin-sidebar.am-active {
-  z-index: 1600;
+.tpl-page-header-fixed {
+  margin-top: 75px;
+}
+.tpl-content-wrapper {
+  padding-left: 255px;
+  padding-top: 10px;
+}
+.tpl-content-wrapper-hover {
+  padding-left: 0px;
 }
 
-.admin-sidebar-list {
-  margin-bottom: 0;
-}
-
-.admin-sidebar-list li a {
-  color: #5c5c5c;
-  padding-left: 24px;
-}
-
-.admin-sidebar-list li:first-child {
-  border-top: none;
-}
-
-.admin-sidebar-sub {
-  margin-top: 0;
-  margin-bottom: 0;
-  box-shadow: 0 16px 8px -15px #e2e2e2 inset;
-  background: #ececec;
-  padding-left: 24px;
-}
-
-.admin-sidebar-sub li:first-child {
-  border-top: 1px solid #dedede;
-}
-
-.admin-sidebar-panel {
-  margin: 10px;
+.tpl-content-page-title {
+  color: #697882;
+  font-size: 22px;
+  font-weight: 400;
 }
 
 .admin-content {
@@ -143,20 +112,16 @@ ul {
   margin-bottom: 0;
   color: #666;
 }
-
 .admin-content-file p {
   margin: 0 0 5px 0;
   font-size: 1.4rem;
 }
-
 .admin-content-file li {
   padding: 10px 0;
 }
-
 .admin-content-file li:first-child {
   border-top: none;
 }
-
 .admin-content-file li:last-child {
   border-bottom: none;
 }
